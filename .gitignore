@@ -1,0 +1,9 @@
+﻿.DS_Store
+.idea/*
+/GdsParser/bin/*
+/GdsParser/obj/*
+/InfrastuctureLayer/bin/*
+/InfrastuctureLayer/obj/*
+/InfstructureLayerTests/bin/*
+/InfstructureLayerTests/obj/*
+mono_crash*
