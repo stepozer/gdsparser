@@ -2,8 +2,10 @@
 .idea/*
 /GdsParser/bin/*
 /GdsParser/obj/*
+/GdsParser/out/*
 /InfrastuctureLayer/bin/*
 /InfrastuctureLayer/obj/*
 /InfstructureLayerTests/bin/*
 /InfstructureLayerTests/obj/*
 mono_crash*
+/out

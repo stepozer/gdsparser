@@ -1,0 +1,9 @@
+FROM 'mcr.microsoft.com/dotnet/core/sdk:3.1'
+
+COPY . /var/lib/gdsparser
+
+WORKDIR '/var/lib/gdsparser'
+
+RUN cd /var/lib/gdsparser/GdsParser/ && dotnet publish -c Release -o out
+
+#ENTRYPOINT [ "dotnet" , "/var/lib/gdsparser/out/GdsParser.dll" ]
