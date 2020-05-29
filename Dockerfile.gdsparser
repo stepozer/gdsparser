@@ -1,0 +1,16 @@
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
+WORKDIR /app
+
+# copy csproj and restore as distinct layers
+COPY *.sln .
+COPY GdsParser/*.csproj ./GdsParser/
+COPY InfrastuctureLayer/*.csproj ./InfrastuctureLayer/
+COPY InfstructureLayerTests/*.csproj ./InfstructureLayerTests/
+RUN dotnet restore
+
+# copy everything else and build app
+COPY . .
+WORKDIR /app/GdsParser
+RUN dotnet publish -c Release -o /out
+
+ENTRYPOINT ["dotnet", "/out/GdsParser.dll"]

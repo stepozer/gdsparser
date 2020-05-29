@@ -1,0 +1,14 @@
+---
+
+version: '3'
+
+services:
+  gdsparser:
+    container_name: gdsparser
+    build:
+      context: .
+      dockerfile: ./Dockerfile.gdsparser
+    volumes:
+      - .:/app
+    tty: true
+    stdin_open: true
