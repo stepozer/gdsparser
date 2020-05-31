@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using InfrastuctureLayer;
 using InfrastuctureLayer.Gds.Sirena;
 using InfrastuctureLayer.Models;
 using Xunit;
@@ -11,7 +12,9 @@ namespace InfstructureLayerTests
         
         public DriverTest()
         {
-            _driver = new Driver();
+            var logger = new Logger();
+            var client = new Client(logger);
+            _driver = new Driver(client);
         }
         
         [Fact]

@@ -2,6 +2,10 @@
 .idea/*
 /GdsParser/bin/*
 /GdsParser/obj/*
+/CompositionRootLayer/bin/*
+/CompositionRootLayer/obj/*
+/CompositionRootLayerTest/bin/*
+/CompositionRootLayerTest/obj/*
 /GdsParser/out/*
 /InfrastuctureLayer/bin/*
 /InfrastuctureLayer/obj/*

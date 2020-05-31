@@ -1,4 +1,10 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3ead3057_002D8078_002D4a8a_002Da546_002Dd75963daa2d3/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="False" ContinuousTestingMode="0" FrameworkVersion="{x:Null}" IsLocked="False" Name="All tests from &amp;lt;InfstructureLayerTests&amp;gt; #2" PlatformMonoPreference="{x:Null}" PlatformType="{x:Null}" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;
+  &lt;Project Location="/var/www/avia/gdsparser/InfstructureLayerTests" Presentation="&amp;lt;InfstructureLayerTests&amp;gt;" /&gt;
+&lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=50296eba_002D2f15_002D4d89_002Da06d_002D363b0a887ee1/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="False" ContinuousTestingMode="0" FrameworkVersion="{x:Null}" IsLocked="False" Name="All tests from &amp;lt;InfstructureLayerTests&amp;gt;" PlatformMonoPreference="{x:Null}" PlatformType="{x:Null}" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"&gt;
-  &lt;Project Location="/home/dstepanenko/RiderProjects/GdsParser/InfstructureLayerTests" Presentation="&amp;lt;InfstructureLayerTests&amp;gt;" /&gt;
+  &lt;Or&gt;
+    &lt;Project Location="/var/www/avia/gdsparser/InfstructureLayerTests" Presentation="&amp;lt;InfstructureLayerTests&amp;gt;" /&gt;
+    &lt;ProjectFile&gt;BAD90DEC-99F1-40A4-9CA6-DDCEE7398A52/f:UnitTest1.cs&lt;/ProjectFile&gt;
+  &lt;/Or&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

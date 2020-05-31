@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfrastuctureLayer", "Infra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfstructureLayerTests", "InfstructureLayerTests\InfstructureLayerTests.csproj", "{BE174AEC-8E90-44C6-8AAA-C294DE90063B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositionRootLayer", "CompositionRootLayer\CompositionRootLayer.csproj", "{014AC20A-B81F-4DE5-B2B9-E870870C3E42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositionRootLayerTest", "CompositionRootLayerTest\CompositionRootLayerTest.csproj", "{BAD90DEC-99F1-40A4-9CA6-DDCEE7398A52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{BE174AEC-8E90-44C6-8AAA-C294DE90063B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE174AEC-8E90-44C6-8AAA-C294DE90063B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE174AEC-8E90-44C6-8AAA-C294DE90063B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{014AC20A-B81F-4DE5-B2B9-E870870C3E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{014AC20A-B81F-4DE5-B2B9-E870870C3E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{014AC20A-B81F-4DE5-B2B9-E870870C3E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{014AC20A-B81F-4DE5-B2B9-E870870C3E42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAD90DEC-99F1-40A4-9CA6-DDCEE7398A52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD90DEC-99F1-40A4-9CA6-DDCEE7398A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD90DEC-99F1-40A4-9CA6-DDCEE7398A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD90DEC-99F1-40A4-9CA6-DDCEE7398A52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
