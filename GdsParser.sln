@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositionRootLayer", "Com
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositionRootLayerTest", "CompositionRootLayerTest\CompositionRootLayerTest.csproj", "{BAD90DEC-99F1-40A4-9CA6-DDCEE7398A52}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiLaeyr", "WebApiLaeyr\WebApiLaeyr.csproj", "{3D52CD2E-3A4E-4F40-AF74-95A16E98A182}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{BAD90DEC-99F1-40A4-9CA6-DDCEE7398A52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAD90DEC-99F1-40A4-9CA6-DDCEE7398A52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAD90DEC-99F1-40A4-9CA6-DDCEE7398A52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D52CD2E-3A4E-4F40-AF74-95A16E98A182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D52CD2E-3A4E-4F40-AF74-95A16E98A182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D52CD2E-3A4E-4F40-AF74-95A16E98A182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D52CD2E-3A4E-4F40-AF74-95A16E98A182}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

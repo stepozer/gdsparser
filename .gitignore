@@ -11,5 +11,7 @@
 /InfrastuctureLayer/obj/*
 /InfstructureLayerTests/bin/*
 /InfstructureLayerTests/obj/*
+/WebApiLaeyr/bin/*
+/WebApiLaeyr/obj/*
 mono_crash*
 /out
