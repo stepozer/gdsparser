@@ -6,6 +6,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\CompositionRootLayer\CompositionRootLayer.csproj" />
+      <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
       <ProjectReference Include="..\InfrastuctureLayer\InfrastuctureLayer.csproj" />
     </ItemGroup>
 

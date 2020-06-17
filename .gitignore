@@ -13,5 +13,7 @@
 /InfstructureLayerTests/obj/*
 /WebApiLaeyr/bin/*
 /WebApiLaeyr/obj/*
+/DataAccessLayer/bin/*
+/DataAccessLayer/obj/*
 mono_crash*
 /out
